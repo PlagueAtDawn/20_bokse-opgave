@@ -119,18 +119,21 @@
   font-size: 4rem;
   font-weight: 600;
 
-  background-image: url(bg_images/himmel.jpeg);
-  background-clip:;
+  background-clip: text;
+  color: transparent;
 
-  /*Her indsættes baggrundsbilledet som fyld i teksten og teksten gøres transparent*/
+  background-image: url(bg_images/himmel.jpeg);
 }
 
 /*-------------------------------boks 14--------------------------------*/
 
 .box14 .content {
-  /*Her indsættes gradient vha. background-image*/
+  background: linear-gradient(#ff30d2, rgb(255, 189, 103), #ff0000);
 
-  /*Her styles teksten*/
+  font-size: x-large;
+  font-style: italic;
+  color: white;
+  text-align: end;
 }
 
 /*-------------------------------boks 15--------------------------------*/
